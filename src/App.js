@@ -6,6 +6,7 @@ import {
   Link
 } from "react-router-dom";
 import Header from './components/Header/Header';
+import Home from './components/Home/Home';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <div className="app">
         <Switch>
           <Route path="/checkout">
+            <Header />
             <h2>checkout</h2>
           </Route>
           <Route path="/login">
@@ -20,6 +22,7 @@ function App() {
           </Route>
           <Route path="/" exact>
             <Header />
+            <Home />
           </Route>
         </Switch>
       </div>
