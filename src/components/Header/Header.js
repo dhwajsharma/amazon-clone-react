@@ -7,7 +7,7 @@ const Header = () => {
     return (
         <nav className="header">
             <Link to="/">
-                <img className="header_logo" src="http://pngimg.com/uploads/amazon/amazon_PNG11.png" alt="" />
+                <img className="header_logo" loading="lazy" src="http://pngimg.com/uploads/amazon/amazon_PNG11.png" alt="" />
             </Link>
 
             <div className="header_search">
