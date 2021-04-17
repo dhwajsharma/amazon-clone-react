@@ -5,6 +5,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import Header from './components/Header/Header';
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
             <h2>login</h2>
           </Route>
           <Route path="/" exact>
-            <h2>Home page</h2>
+            <Header />
           </Route>
         </Switch>
       </div>
